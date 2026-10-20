@@ -7,10 +7,13 @@
 
 
 
-#warnup-1
+#warmup-1
 print("Python is Working!")
-
-#warnup-2
+ 
+ #warmup-2
 today_date =input("What is today's date?")
-print(today_date)
+print("You said that today is ", today_date)
 
+#warmup-3
+temp=float(input("What is the temperature in Fahrenheit?"))
+print(f"{temp}, {(temp - 32) * 5/9}")
